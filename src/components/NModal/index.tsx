@@ -36,8 +36,6 @@ export function NModal({ buttonText, title, children, size, buttonType, save }: 
           <ModalCloseButton />
           <ModalBody>{children}</ModalBody>
           <ModalFooter display='flex'>
-            
-            <Button onClick={onClose}>Close</Button>
             <Button onClick={onClose}>Close</Button>
           </ModalFooter>
         </ModalContent>
