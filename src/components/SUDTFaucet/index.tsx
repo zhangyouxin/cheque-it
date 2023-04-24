@@ -17,7 +17,7 @@ import { getAllLiveCells } from '../../commons/nexusTools';
 // The private key for transferring SUDT
 const DEFAULT_ISSUER_PRIVATE_KEY = process.env.REACT_APP_L1_TEST_TOKEN_ISSUER_PRIVATE_KEY!;
 
-export async function claimUSDC(params: { receiverAddress: string; issuerPrivateKey?: HexString }): Promise<HexString> {
+export async function claimTTKN(params: { receiverAddress: string; issuerPrivateKey?: HexString }): Promise<HexString> {
   const { networkConfig, blockchainConfig } = useNetwork();
   const rpc = new RPC(networkConfig.rpcUrl);
   let txSkeleton = await generateClaimUSDCTxSkeleton(
