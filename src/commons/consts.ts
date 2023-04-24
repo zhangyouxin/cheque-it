@@ -19,6 +19,6 @@ export const CELL_MIN_CKB_BI = BI.from(CELL_MIN_CKB).mul(1e8);
 export const PREPARE_FEE_SHANNON = 1e6;
 
 // TX FEE
-export const DEFAULT_TX_FEE = 1e6;
+export const DEFAULT_TX_FEE_SHANNON = 1e6;
 
 export const DEFAULT_PAGE_SIZE = 10;
