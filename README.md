@@ -2,6 +2,10 @@
 
 Cheque-It is a cheque helper.
 
+# Docs
+
+- [Design](docs/design.md)
+
 # Read More
 
 - https://talk.nervos.org/t/sudt-cheque-deposit-design-and-implementation/5209
