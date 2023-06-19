@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ChakraProvider } from '@chakra-ui/react';
 import { theme } from './theme';
 
+
 // https://github.com/ckb-js/nexus/blob/main/docs/rpc.md
 type MethodNames =
   | 'wallet_enable'
